@@ -1,0 +1,10 @@
+<!-- python manage.py makemigrations: -->
+What is this?
+1. This used to create new migration files based on the changes you made to your Django models (in models.py files).
+
+Here's what it does:
+1. Detects changes in your models (like adding a new field, creating a new model, deleting or renaming something).
+
+2. Generates a migration file inside the migrations/ folder of your Django app.
+
+3. That migration file contains Python code that tells Django how to update your database schema to match your models.
